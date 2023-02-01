@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+<div class="form_first">
+	<div class="title">
+		Create an Account
+	</div>
+	<form action="#" method="get">
+		<div class="flex">
+		<div class="div_first_name ">
+			<label class="label_text" for="fisrt_name">First Name:</label><br>
+			<input class="input" id="fisrt_name" type="text" name="username" tabindex="1" >
+		</div>
+		<div class="div_last_name ">
+			<label class="label_text" for="last_name">Last Name:</label><br>
+			<input class="input" id="last_name" type="text" name="username" tabindex="2" >
+		</div>
+		</div>
+		<div class="div_email">
+			<label class="label_text" for="email">Email:</label><br>
+			<input class="input input_email" type="email" name="username" tabindex="3" >
+			<span>We'll never share your email with anyone else.</span>
+		</div>
+
+		<div class="flex">
+			<div class="div_male">
+				<input class="radio" type="radio" id="male" name="male"tabindex="4">
+			<label class="label_text" for="male">Male</label>
+			</div>
+
+			<div class="div_female">
+				<input class="radio" type="radio" id="female" name="male" tabindex="5">
+			<label class="label_text" for="female">Female</label>
+			</div>
+</div>
+
+<div class="flex">
+		<div class="div_country">
+			<label class="label_text" for="last_name">Country:</label><br>
+		<select class="input input_selected " name="course_text" tabindex="6"  >
+
+		<option value="" disabled selected>Select</option>
+		<option class="input_selected_option" value="frontend">Ukraine</option>
+		<option class="input_selected_option" value="backend">Poland </option>
+		<option class="input_selected_option" value="pm">Monaco</option>
+		<option class="input_selected_option" value="qa">Moldova</option>
+	</select>
+	</div>
+
+		<div class="div_city">
+			<label class="label_text" for="city">City:</label><br>
+			<input class="input" id="city" type="text" name="username" tabindex="2" >
+		</div>
+
+</div>
+		<div class="button">
+			<button class="big_button"><span class="button_text">Sign Up</span></button>
+		</div>
+		<div class="title_text"><span class="span_center">By clicking the 'Sign Up' button, you confirm that you accept our <span class="blue_text_span">Terms of Use </span> and <span class="blue_text_span"> Privacy Policy</span>
+		</span>
+		</div>
+
+		<div class="grey_line "></div>
+<div class="label_text title_position_centre">Have an account?<button class="blue_text_span blue_text_span_left">Log in</button></div>
+
+	</form>
+</div>
+<div class="form_second">
+	<div class="title">
+		Profile
+	</div>
+	<div class="img_circle">
+		<img src="img/img_circle.png" alt="">
+	</div>
+	<form action="#" method="get">
+	
+	<div class="input input_img">
+	<input class="photo_text" type="file" tabindex="1" name="userphoto">
+	</div>
+
+<button class="input button_reset" type="reset"></button>
+
+<div class="title_text title_text_img">Up to 1 MB (300x300 px)</div>
+<!-- тут у меня вопрос нужно ли открывать новую форму, так как там стоит ресет  -->
+<div class="flex">
+		<div class="div_first_name ">
+			<label class="label_text" for="fisrt_name">Name</label><br>
+			<input class="input" id="fisrt_name" type="text" name="username" tabindex="1" >
+		</div>
+		<div class="div_last_name ">
+			<label class="label_text" for="last_name">Email</label><br>
+			<input class="input" id="last_name" type="text" name="username" tabindex="2" >
+		</div>
+		</div>
+
+		<div class="flex">
+		<div class="div_country">
+			<label class="label_text" for="last_name">Country:</label><br>
+		<select class="input input_selected " name="course_text" tabindex="6"  >
+
+		<option value="" disabled selected>Select</option>
+		<option class="input_selected_option" value="frontend">Ukraine</option>
+		<option class="input_selected_option" value="backend">Poland </option>
+		<option class="input_selected_option" value="pm">Monaco</option>
+		<option class="input_selected_option" value="qa">Moldova</option>
+	</select>
+	</div>
+
+		<div class="div_city">
+			<label class="label_text" for="city">City:</label><br>
+			<input class="input" id="city" type="text" name="username" tabindex="2" >
+		</div>
+
+</div>
+
+<div class="flex">
+		<div class="div_first_name ">
+			<label class="label_text" for="fisrt_name">Name</label><br>
+			<input class="input" id="fisrt_name" type="text" name="username" tabindex="1" >
+		</div>
+		<div class="div_last_name ">
+			<label class="label_text" for="last_name">Email</label><br>
+			<input class="input" id="last_name" type="text" name="username" tabindex="2" >
+		</div>
+		</div>
+		<button class="big_button button_small"><span class="button_text">Update</span></button>
+</form>
+
+
+</div>
+</div>
+</body>
+
+
+</html>
